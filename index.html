@@ -1,0 +1,32 @@
+<style>
+    body 
+    {
+        background-image: url(lion_sleeping.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:contain;
+    }
+    .RegisterForom
+    {
+        margin: auto;
+        position:absolute;
+        width: 90%;
+        top: 20px;
+        left: 50px;
+        border: 3px solid;
+        padding: 10px;
+    }
+</style>
+<html>
+  <body>
+    <div class="RegisterForom">
+        <form method="POST">
+      Username: <input type="text" name="username" required><br><br>
+      Password: <input type="password" name="password" required><br><br>
+      <button type="submit" formaction="http://127.0.0.1:8005/register.html">Register</button>
+      <button type="submit" formaction="http://127.0.0.1:8005/login">Login</button>
+    </form>
+    </div>
+    
+  </body>
+</html>
